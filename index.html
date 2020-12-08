@@ -110,33 +110,35 @@
         </p>
       </div>
       <div class="sectionThreeBody">
-        <div id="btnsectionThree">
+        <!-- <div id="btnsectionThree">
           <button class="btnThree activeThree">quero contratar</button>
           <button class="btnThree">sou cuidador</button>
-        </div>
+        </div> -->
         <form name="contact" method="POST" data-netlify="true">
-          <!-- <div id="btnsectionThree test">
-            <button class="btnThree activeThree">quero contratar</button>
-            <button class="btnThree">sou cuidador</button>
-          </div> -->
-          <p><b>*</b>Nome completo:</p>
+          <div class='togglebuttons option1 clearfix'>
+            <input name="option1" type="radio" id="option1-radio1" value="Quero Contratar" checked/>
+            <label for="option1-radio1">quero contratar</label>
+            <input name="option1" type="radio" id="option1-radio2" value="Sou Cuidador"/>
+            <label for="option1-radio2">sou cuidador</label>
+          </div>
+          <p class="buttonPaddingLeft"><b>*</b>Nome completo:</p>
           <input 
-            name="name" 
+            name="name"
             type="text" 
             pattern="^\D{2,}\s[\D\s]{2,}$" 
             title="Digite seu nome completo" 
             placeholder="Digite seu nome completo" 
             required 
           />
-          <p><b>*</b>E-mail:</p>
+          <p class="buttonPaddingLeft"><b>*</b>E-mail:</p>
           <input 
-            name="email" 
+            name="email"
             type="email" 
             title="Digite um email válido" 
             placeholder="Digite seu email"
             required
           />
-          <p><b>*</b>Celular:</p>
+          <p class="buttonPaddingLeft"><b>*</b>Celular:</p>
           <input 
             name="phone"
             type="number"
@@ -145,16 +147,16 @@
             pattern="^\([0-9]{3}\) [0-9]{3}[ -][0-9]{4}$"
             required
           />
-          <p><b>*</b>Local de Atendimento:</p>
+          <p class="buttonPaddingLeft"><b>*</b>Local de Atendimento:</p>
           <input 
             name="name" 
             type="text" 
             pattern="^\D{2,}\s[\D\s]{2,}$" 
             title="Digite seu local de Atendimento" 
-            placeholder="Estado/Cidade" 
+            placeholder="Cidade/Estado" 
             required 
           />
-          <p><b>*</b>Formação Profissional:</p>
+          <!-- <p class="buttonPaddingLeft"><b>*</b>Formação Profissional:</p>
           <input 
             name="name" 
             type="text" 
@@ -162,7 +164,7 @@
             title="Digite sua formação profissional" 
             placeholder="Digite sua formação profissional" 
             required 
-          />
+          /> -->
           <input type="submit" value="Quero me cadastrar" />
         </form>
         <h6>Mais de <b id="download">328</b> cadastros nas ultimas 48h</h6>
@@ -173,9 +175,9 @@
   <footer class="footer">
     <div>
       <div>
-        <a href="https://twitter.com"><img src="assets/Twitter.png" alt=""></a>
+        <!-- <a href="https://twitter.com"><img src="assets/Twitter.png" alt=""></a>
         <a href="http://facebook.com"><img src="assets/facebook.png" alt=""></a>
-        <a href="http://google.com"><img src="assets/google.png" alt=""></a>
+        <a href="http://google.com"><img src="assets/google.png" alt=""></a> -->
       </div>
       <span>cuidamelhor@gmail.com</span>
     </div>

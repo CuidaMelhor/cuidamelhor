@@ -154,11 +154,6 @@ header .red:hover {
   align-items: center;
 }
 
-.sectionTwoBody div img {
-  /* width: 76px;
-  height: 45px; */
-}
-
 .sectionTwoBody div span {
   width: 40%;
   font-family: DM Sans;
@@ -188,7 +183,7 @@ header .red:hover {
 }
 
 .sectionThree {
-  height: 900px;
+  height: 750px;
 
   display: flex;
   align-items: center;
@@ -289,7 +284,7 @@ header .red:hover {
   justify-content: center;
   text-align: left;
 
-  padding-left: 15%;
+  /* padding-left: 15%; */
 }
 
 .sectionThreeBody form p {
@@ -299,7 +294,7 @@ header .red:hover {
   font-size: 16px;
   line-height: 26px;
 
-  padding: 0 0 3px 0;
+  padding: 0 0 3px 10%;
 }
 
 .sectionThreeBody form b {
@@ -339,7 +334,7 @@ header .red:hover {
   color: rgba(21, 20, 57, 0.4);
 
   padding: 0 0 0 20px;
-  margin: 0 0 15px 0;
+  margin: 0 0 15px 10%;
   outline: none;
 }
 
@@ -414,9 +409,54 @@ header .red:hover {
   /* text-transform: uppercase; */
 }
 
-.test {
-  width: 100% !important;
+.togglebuttons {
+  width: 100%;
+  display: flex;
+
+  margin: 0 0 35px 0 !important;
 }
+
+input[type="radio"] {
+  display: none;
+  margin: 0;
+}
+
+.option1 label {
+  width: 100%;
+  text-align: center;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 66px;
+  letter-spacing: 2px;
+  color: #CBD2D9;
+
+  text-transform: uppercase;
+
+  border-bottom: 2px solid #CBD2D9;
+  cursor: pointer;
+}
+
+.option1 label:hover {
+  border-bottom: 2px solid #FF5555;
+}
+
+.option1 input:checked + label {
+  color: #1E2640;
+  border-bottom: 2px solid #FF5555;
+  box-shadow: none;
+}
+
+.buttonPaddingLeft {
+  display: flex;
+  flex-direction: row;
+
+  align-items: flex-start !important;
+  justify-content: left !important;
+  text-align: left !important;
+}
+
 
 @media only screen and (max-width: 768px) {
   body {
@@ -475,7 +515,7 @@ header .red:hover {
   }
 
   .sectionThree {
-    height: 1180px;
+    height: 980px;
     flex-wrap: wrap;
   }
 
@@ -505,8 +545,6 @@ header .red:hover {
     line-height: 150%;
   }
 
-
-  
   .sectionThreeHeader p {
     font-size: 16px;
     line-height: 150%;
@@ -514,6 +552,10 @@ header .red:hover {
     text-align: center;
 
     padding-bottom: 30px;
+  }
+
+  .option1 label {
+    letter-spacing: 0px;
   }
 
   .footer {
