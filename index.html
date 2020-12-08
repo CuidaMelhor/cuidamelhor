@@ -116,14 +116,14 @@
         </div> -->
         <form name="contact" method="POST" data-netlify="true">
           <div class='togglebuttons option1 clearfix'>
-            <input name="option1" type="radio" id="option1-radio1" value="Quero Contratar" checked/>
+            <input name="option1" type="radio" id="option1-radio1" value="Escolha" checked/>
             <label for="option1-radio1">quero contratar</label>
-            <input name="option1" type="radio" id="option1-radio2" value="Sou Cuidador"/>
+            <input name="option1" type="radio" id="option1-radio2" value="Escolha"/>
             <label for="option1-radio2">sou cuidador</label>
           </div>
           <p class="buttonPaddingLeft"><b>*</b>Nome completo:</p>
           <input 
-            name="name"
+            name="nome"
             type="text" 
             pattern="^\D{2,}\s[\D\s]{2,}$" 
             title="Digite seu nome completo" 
@@ -140,7 +140,7 @@
           />
           <p class="buttonPaddingLeft"><b>*</b>Celular:</p>
           <input 
-            name="phone"
+            name="celular"
             type="number"
             title="Digite um telefone válido"
             placeholder="Digite seu numero de telefone"
@@ -149,7 +149,7 @@
           />
           <p class="buttonPaddingLeft"><b>*</b>Local de Atendimento:</p>
           <input 
-            name="place" 
+            name="local" 
             type="text" 
             title="Digite seu local de Atendimento" 
             placeholder="Cidade/Estado" 
