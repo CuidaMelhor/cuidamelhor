@@ -434,17 +434,17 @@ input[type="radio"] {
 
   text-transform: uppercase;
 
-  border-bottom: 2px solid #CBD2D9;
+  border-bottom: 4.5px solid #CBD2D9;
   cursor: pointer;
 }
 
 .option1 label:hover {
-  border-bottom: 2px solid #FF5555;
+  border-bottom: 4.5px solid #FF5555;
 }
 
 .option1 input:checked + label {
   color: #1E2640;
-  border-bottom: 2px solid #FF5555;
+  border-bottom: 4.5px solid #FF5555;
   box-shadow: none;
 }
 
