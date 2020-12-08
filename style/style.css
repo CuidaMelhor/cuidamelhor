@@ -188,7 +188,7 @@ header .red:hover {
 }
 
 .sectionThree {
-  height: 760px;
+  height: 900px;
 
   display: flex;
   align-items: center;
@@ -339,7 +339,7 @@ header .red:hover {
   color: rgba(21, 20, 57, 0.4);
 
   padding: 0 0 0 20px;
-  margin: 0 0 30px 0;
+  margin: 0 0 15px 0;
   outline: none;
 }
 
@@ -367,7 +367,7 @@ header .red:hover {
 
   color: #CBD2D9;
 
-  margin: -27px 0 20px 0;
+  margin: -10px 0 20px 0;
 }
 
 .sectionThreeBody h6 b {
@@ -412,6 +412,10 @@ header .red:hover {
   text-align: center;
   letter-spacing: 2px;
   /* text-transform: uppercase; */
+}
+
+.test {
+  width: 100% !important;
 }
 
 @media only screen and (max-width: 768px) {
@@ -471,6 +475,7 @@ header .red:hover {
   }
 
   .sectionThree {
+    height: 1180px;
     flex-wrap: wrap;
   }
 
@@ -484,10 +489,6 @@ header .red:hover {
 
   .sectionTwoBody div p {
     width: 80%;
-  }
-
-  .sectionThree {
-    height: 1000px;
   }
 
   .sectionThreeHeader h2 {

@@ -115,6 +115,10 @@
           <button class="btnThree">sou cuidador</button>
         </div>
         <form name="contact" method="POST" data-netlify="true">
+          <!-- <div id="btnsectionThree test">
+            <button class="btnThree activeThree">quero contratar</button>
+            <button class="btnThree">sou cuidador</button>
+          </div> -->
           <p><b>*</b>Nome completo:</p>
           <input 
             name="name" 
@@ -140,6 +144,24 @@
             placeholder="Digite seu numero de telefone"
             pattern="^\([0-9]{3}\) [0-9]{3}[ -][0-9]{4}$"
             required
+          />
+          <p><b>*</b>Local de Atendimento:</p>
+          <input 
+            name="name" 
+            type="text" 
+            pattern="^\D{2,}\s[\D\s]{2,}$" 
+            title="Digite seu local de Atendimento" 
+            placeholder="Estado/Cidade" 
+            required 
+          />
+          <p><b>*</b>Formação Profissional:</p>
+          <input 
+            name="name" 
+            type="text" 
+            pattern="^\D{2,}\s[\D\s]{2,}$" 
+            title="Digite sua formação profissional" 
+            placeholder="Digite sua formação profissional" 
+            required 
           />
           <input type="submit" value="Quero me cadastrar" />
         </form>
